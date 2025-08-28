@@ -52,7 +52,7 @@ int main(){
     }
     
     position = 3;
-    printf("\nRetrieve element at index %d: %d\n", position, retrieve(&L, position));
+    printf("\nRetrieved element at index %d: %d\n", position, retrieve(&L, position));
 
     data = 2;
     printf("\nL = insertSorted(L, %d)\n", data);
