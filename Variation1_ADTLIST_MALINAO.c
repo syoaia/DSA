@@ -45,7 +45,6 @@ int main(){
     if(position != -1){
         printf("\n%d found at index %d.\n", data, position);
     }
-    display(L);
 
     data = 11;
     printf("\nL = insertSorted(L, %d)\n", data);

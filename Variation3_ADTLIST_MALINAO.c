@@ -46,6 +46,8 @@ int main(){
     position = locate(L, data);
     if (position != -1){
     	printf("\n%d found at index %d.\n", data, position);
+	}else{
+		printf("\n%d is not in the list.\n", data, position);
 	}
     
 	data = 2;
